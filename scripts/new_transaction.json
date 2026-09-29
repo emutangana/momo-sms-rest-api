@@ -1,0 +1,8 @@
+{
+  "transaction_type": "PAYMENT",
+  "amount": 2500,
+  "sender": "Account Holder",
+  "receiver": "Kigali Coffee Shop",
+  "fee": 0,
+  "timestamp": "2024-06-01T10:00:00"
+}
