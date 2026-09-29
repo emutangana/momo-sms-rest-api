@@ -10,45 +10,18 @@ A secure REST API for Mobile Money (MoMo) SMS transaction records. It is built w
 
 ## Team
 
-| Name | GitHub | Role |
-|------|--------|------|
-| [Member 1] | [@username] | [e.g. XML parsing] |
-| [Member 2] | [@username] | [e.g. API endpoints & auth] |
-| [Member 3] | [@username] | [e.g. DSA & testing] |
+Elvis Mutangana - @emutangana
+Ezio Munyengango - @chuloezi
 
-**Team participation sheet:** [link]
+**Team participation sheet:** https://docs.google.com/spreadsheets/d/1udyB3jHvqLQsR-EuoZRbUlTQyXp7s9c7IdpoqBWpH28/edit?usp=sharing 
 
-## Project Structure
-
-```
-momo-sms-rest-api/
-├── api/
-│   ├── server.py          # HTTP server and CRUD route handlers
-│   ├── auth.py            # Basic Authentication check
-│   └── store.py           # In-memory store (list + dict index) and input validation
-├── dsa/
-│   ├── parse_xml.py       # XML -> list of JSON objects
-│   └── search_compare.py  # Linear search vs dictionary lookup benchmark
-├── data/
-│   ├── modified_sms_v2.xml
-│   └── transactions.json  # parsed output (created by dsa.parse_xml)
-├── docs/
-│   ├── api_docs.md        # Endpoint documentation
-│   ├── dsa_results.md     # Benchmark results and reflection
-│   ├── report.html        # Report source
-│   └── report.pdf         # Final PDF report
-├── scripts/               # curl test scripts + sample request bodies
-├── screenshots/           # Test screenshots
-├── tests/test_api.py      # Automated endpoint tests
-└── README.md
-```
 
 ## Setup
 
 Requirements: **Python 3.8+**. Nothing to install.
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/emutangana/momo-sms-rest-api.git
 cd momo-sms-rest-api
 ```
 
@@ -121,3 +94,8 @@ The reflection is in [docs/dsa_results.md](docs/dsa_results.md).
 
 Basic Auth is used for this assignment. It only base64-encodes credentials and sends them with every request,
 so it must be used over HTTPS. A production system should use JWT or OAuth 2.0. See the PDF report for details.
+
+## Report Documentation Link
+
+https://drive.google.com/file/d/1r7P9SmppWz8xZiWDS8nD-kk_UwWEHsim/view?usp=sharing
+
