@@ -11,6 +11,7 @@ A secure REST API for Mobile Money (MoMo) SMS transaction records. It is built w
 ## Team
 
 Elvis Mutangana - @emutangana
+
 Ezio Munyengango - @chuloezi
 
 **Team participation sheet:** https://docs.google.com/spreadsheets/d/1udyB3jHvqLQsR-EuoZRbUlTQyXp7s9c7IdpoqBWpH28/edit?usp=sharing 
